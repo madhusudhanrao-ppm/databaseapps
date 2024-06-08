@@ -1,0 +1,62 @@
+.App {
+  font-family: sans-serif;
+  text-align: center; 
+}
+* CSS for scrolling in React Table */
+.tableContainer {
+  overflow-x: auto;
+  display: block;
+}
+.table-wrapper {
+  overflow-x: auto;
+}
+
+.custom-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.custom-header {
+  background-color: #004085;
+  color: white;
+  padding: 10px;
+}
+
+.custom-row:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+
+.custom-row:hover {
+  background-color: #ddd;
+}
+
+.custom-cell {
+  padding: 8px;
+  border: 1px solid #ddd;
+  background-color: #004085;
+  color: white;
+}
+
+.fixedWidthColumn {
+  width: 150px;
+}
+/* Example CSS for a simple table */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  border: #ddd;
+}
+
+.table th, .table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.table thead {
+  background-color: #f2f2f2;
+}
+
+.table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
